@@ -107,14 +107,18 @@ nav {
 }
 
 .download-btn {
-  height: 100%;
-  border: none;
-  color: #fff;
-  padding: 8px 5px 5px;
-  background: rgba(180, 180, 250, 0.8);
-  margin-top: -5px;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: lighter;
+  background: #61c0ff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all 0.5s ease;
   &:hover {
     text-decoration: none;
-    background: rgba(180, 180, 250, 0.6);
+    background: #189ef2;
   }
 }
