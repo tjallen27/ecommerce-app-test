@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   get '/about', to: 'static#about'
 
   resources :tracks
-  resources :tracks
   resources :categories
+  resources :charges
 
   root 'static#home'
 
