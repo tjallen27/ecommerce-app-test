@@ -1,24 +1,10 @@
-# README
+# E-commerce Music App test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The aim of this project is to try and implement some new features
 
-Things you may want to cover:
+The app is designed to be a simple application in which users can browse a small library of music produced for commerical use, and purchase the music after hearing a short preview of the track.
 
-* Ruby version
+#### Payment
+For this application, I am going to look into both Paypal and Stripe implementation.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+When the user clicks "Buy" on the track they would like to purchase, they will be directed to a payment gateway and once the payment has been verified, the full audio file will be downloaded.
