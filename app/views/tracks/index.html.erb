@@ -4,7 +4,7 @@
     <thead>
       <tr>
         <th>Title</th>
-        <th>Length</th>
+        <!-- <th>Length</th> -->
         <th>Category</th>
         <th colspan="3"></th>
       </tr>
@@ -14,7 +14,7 @@
       <% @tracks.each do |track| %>
         <tr>
           <td><%= track.title %></td>
-          <td><%= track.length %></td>
+          <!-- <td><%= track.length %></td> -->
           <td><%= track.category.name %></td>
           <td><audio controls controlsList="nodownload">
             <source src="<%= track.audio %>" type="audio/ogg">
