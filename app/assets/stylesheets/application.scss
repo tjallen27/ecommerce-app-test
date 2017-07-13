@@ -103,10 +103,60 @@ nav {
     text-align: center;
     font-size: 14px;
     padding: 10px 0;
+    margin: 5px;
   }
 }
 
 .download-btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: lighter;
+  background: #61c0ff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  &:hover {
+    text-decoration: none;
+    background: #189ef2;
+  }
+}
+
+.payment-container {
+  max-width: 600px;
+  margin: 20px auto 0;
+  text-align: center;
+  font-size: 1.1em;
+  .amount {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 2em;
+  }
+  .btn a{
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: lighter;
+    background: #61c0ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    &:hover {
+      text-decoration: none;
+      background: #189ef2;
+    }
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+.btn a{
+  margin: 0;
   -webkit-border-radius: 9;
   -moz-border-radius: 9;
   border-radius: 9px;
