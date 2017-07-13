@@ -23,7 +23,8 @@
             </audio>
           </td>
           <td>
-            <a class="download-btn" href="<%= track.audio %>" download="proposed_file_name">Download</a>
+            <%= link_to 'Buy Now', controller: "charges", action: "new" %>
+            <!-- <a class="download-btn" href="<%= track.audio %>" download="proposed_file_name">Download</a> -->
           </td>
         </tr>
       <% end %>
