@@ -1,6 +1,6 @@
 # E-commerce Music App test
 
-The aim of this project is to try and implement some new features
+The aim of this project is to try and implement some new features and build an app solely with Rails (i.e. Not just an API).
 
 The app is designed to be a simple application in which users can browse a small library of music produced for commerical use, and purchase the music after hearing a short preview of the track.
 
