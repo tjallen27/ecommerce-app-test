@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
   def authorize
     redirect_to '/login' unless current_user
   end
+
+  def nav
+    @home_nav  = true
+  end
 end
