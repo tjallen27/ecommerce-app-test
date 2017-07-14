@@ -213,3 +213,18 @@ nav {
     background: #189ef2;
   }
 }
+
+.pagination {
+  display: block;
+  padding-left: 0;
+  margin: 20px auto;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  a {
+    color: #222;
+    &:hover {
+      background: none;
+    }
+  }
+}

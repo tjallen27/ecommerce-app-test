@@ -5,6 +5,7 @@ class TracksController < ApplicationController
   # GET /tracks.json
   def index
     @tracks = Track.all
+    @tracks = @tracks.paginate(:page => params[:page], :per_page => 3)
   end
 
   # GET /tracks/1
