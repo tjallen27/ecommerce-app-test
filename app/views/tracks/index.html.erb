@@ -11,7 +11,7 @@
     </thead>
 
     <tbody>
-      <%= will_paginate @tracks %>
+
         <%  @tracks.each do |track| %>
           <tr>
             <td><%= track.title %></td>
@@ -29,8 +29,9 @@
             </td>
           </tr>
         <% end %>
+
     </tbody>
   </table>
-
+<%= will_paginate @tracks %>
   <br>
 </div>
